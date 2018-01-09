@@ -5,7 +5,7 @@ import io.kotlintest.specs.FreeSpec
 
 class TableTest : FreeSpec() { init {
     "Table" - {
-        var subject = Table()
+        val subject = Table()
 
         "with no rows" {
             subject.toString() shouldEqual ""
